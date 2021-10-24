@@ -1,6 +1,5 @@
 import './App.css';
-import ReactDom from 'react-dom';
-import {Route,Link} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import React from 'react';
 import {Button,Navbar,NavDropdown,FormControl,Nav,Form} from 'react-bootstrap'
 import Order from './pages/Order'
@@ -40,7 +39,6 @@ function App() {
       </div>
       </Route>
       <Route path="/order" component={Order}>
-        <Order />
       </Route>
     </div>
   );

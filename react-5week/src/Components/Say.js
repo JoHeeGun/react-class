@@ -18,6 +18,7 @@ function Say() {
       <h3>들어온 횟수 : {number}</h3>
       <button onClick={ins}>입장</button>
       <button onClick={out}>퇴장</button><br />
+      
       <button style={{color:'red'}} onClick= { () => setColor('red')}>빨간색</button>
       <button style={{color:'blue'}} onClick= { () => setColor('blue')}>파랑색</button>
       <button style={{color:'yellow'}} onClick= { () => setColor('yellow')}>노랑색</button>
