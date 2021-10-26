@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
     render () {
         return(
-            <header className="gnb_box">
+            <header className="gnb_box">  
                 <div className="hd_top">
                     <div className="top_wrap ct1 af">
                     <ul className="hd_left af">

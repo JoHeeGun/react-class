@@ -12,7 +12,7 @@ const Menu = ({recipes,title}) => {
                 <div className="recipes">
                     { 
                       recipes.map((recipe,i) =>
-                        <Recipe key={i} name={recipe.name} 
+                        <Recipe key={i} name={recipe.name}              //<Recipe key={i} {...recipe} 도 가능 
                                 ingredients={recipe.ingredients} 
                                 steps={recipe.steps}
                         />)

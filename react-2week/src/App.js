@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Potato from './Potato';
 
 
 const foodILike = [
@@ -43,6 +44,8 @@ function App() {
       {foodILike.map(dish => (
       <Food name={dish.name} picture={dish.image} />
       ))}
+      <hr />
+      <Potato fav="nice" vat="very"/>
     </div>
   );
 }

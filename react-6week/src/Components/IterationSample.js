@@ -10,7 +10,7 @@ const IterationSample = () =>{
 
   const [input,setInput] = useState('');
   const [nextid,setNextid] = useState(5);
-  
+    
   const change = (e) => {
     setInput(e.target.value)
   }
@@ -30,7 +30,10 @@ const IterationSample = () =>{
   }
 
   const nameList = names.map(name => 
-    <li key={name.id} onDoubleClick={() => remove(name.id)}>{name.text}</li>);
+    <div>
+      <li key={name.id} onDoubleClick={() => remove(name.id)}>{name.text}</li>
+    </div>
+    );
 
   return(
     <div>

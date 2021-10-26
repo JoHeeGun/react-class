@@ -25,7 +25,7 @@ class App extends Component{
         <Hello name="heegun" />
         <Profile data={faker} />
         <Profile data={chovy} />
-        <MyComponent favoriteNumber={3} name="jo">children값! </MyComponent>
+        <MyComponent favoriteNumber={3} name="jo">children값!@@@ </MyComponent>
       </div>
     );
   }

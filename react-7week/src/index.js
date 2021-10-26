@@ -1,7 +1,12 @@
 // ./src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {HashRouter as Router,Route,Switch,NavLink}from'react-router-dom';
+import {BrowserRouter as Router,Route,Switch,NavLink}from'react-router-dom';
+import About from './pages/About'
+import Header from './pages/Header'
+import reactRouter1 from './Components/reactRouter1';
+import reactRouter2 from './Components/reactRouter2';
+
 import './index.css';
 
 function Home(){
@@ -35,6 +40,8 @@ function App(){
     return (
         <div>
             <h1>React Router DOM</h1>
+            <Header />
+            <hr />
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/topics">Topics</a></li>
@@ -49,9 +56,12 @@ function App(){
             <hr />
             <ul>
                 <Switch>
-                <Route path="/topics" component={Topics}/>
-                <Route path="/contact" component={Contact}/>
-                <Route path="/" component={Home}/>
+                    <Route path="/topics" component={Topics}/>
+                    <Route path="/contact" component={Contact}/>
+                    <Route path="/about" component={About}/>
+                    <Route path="/reactrouter1" component={reactRouter1}/>
+                    <Route path="/reactrouter2" component={reactRouter2}/>
+                    <Route path="/" component={Home}/>
                 </Switch>
             </ul>
         </div>
