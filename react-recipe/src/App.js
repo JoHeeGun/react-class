@@ -9,7 +9,7 @@ import data from './data/recipes.json'
 function App() {
   return (
     <div className="App">
-      <Menu recipes={data} title="맛있는 조리법!"></Menu>
+      <Menu recipes={data} title="YK반 20213784조희건"></Menu>
     </div>
   );
 }

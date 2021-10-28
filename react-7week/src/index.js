@@ -52,6 +52,7 @@ function App(){
                 <li><NavLink exact to="/" >Home</NavLink></li>
                 <li><NavLink to="/topics">Topics</NavLink></li>
                 <li><NavLink to="/contact">Contact</NavLink></li>
+                <li><NavLink to="/reactrouter1">reactrouter1</NavLink></li>
             </ul>
             <hr />
             <ul>

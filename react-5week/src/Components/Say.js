@@ -4,6 +4,8 @@ function Say() {
   const [message,setMessage] = useState('');
   const [number, setNumber] = useState(0);
   const [color,setColor] = useState('black');
+
+
   const ins = () => {
     setMessage('들어옴');
     setNumber(number+1);

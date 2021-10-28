@@ -14,7 +14,7 @@ import Footer from './Footer/Footer';
 class App extends Component {
   render () {
     return (
-      <div >
+      <div className="App">
         <HeaderAdmin/> 
         <Route exact path="/" component={LoginForm} />
         <Footer/>

@@ -8,7 +8,7 @@ class reactRouter1 extends Component {
       <div>
         <h1>path='/'</h1>
         <h3>reactRouter1입니다</h3>
-        <Link to={'reactRouter2'}>reactRouter2</Link>
+        <Link to="/reactrouter2">reactRouter2</Link>
       </div>
     )
   }

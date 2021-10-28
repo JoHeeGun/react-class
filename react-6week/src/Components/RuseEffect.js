@@ -11,9 +11,9 @@ function RuseEffect(props){
     setNumber(numberz - 1);
   }
 
-  useEffect(()=>{
+  useEffect(()=>{                     //처음에 실행 , []안에 있는 state변경시 실행
     console.log('useEffect 실행!');
-  },[contents,numberz])
+  },[contents,numberz]) 
   
 
   const changeContents = () =>{

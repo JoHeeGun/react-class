@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import LogoImg from '../../img/layout/logo-01.jpg'
 
 class Header extends Component {
     render () {
@@ -20,7 +21,7 @@ class Header extends Component {
                 </div>
                 <div className="h_nav ct1 af">
                     <div className="logo">
-                        <Link to={'/'}><img src={require("../../img/layout/logo-01.jpg")} height="65px" width="200px" alt=""/></Link>
+                        <Link to={'/'}><img src={LogoImg} height="65px" width="200px" alt=""/></Link>
                     </div>
                     <nav className="gnb gnb_admin">
                     <ul className="af">

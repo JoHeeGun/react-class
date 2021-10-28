@@ -7,8 +7,7 @@ const Recipe = ({name,ingredients,steps}) =>
         <h1>{name}</h1>
         <ul className="ingredients">
             {ingredients.map((ingredients) =>
-                <div><li>{ingredients.name}</li>
-                <li>{ingredients.amount}{ingredients.measurement}</li>
+                <div><li>{ingredients.name}{ingredients.amount}{ingredients.measurement}</li>
                 </div>
                 
                 
